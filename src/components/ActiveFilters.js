@@ -3,7 +3,7 @@ import PlanetsContext from '../context/PlanetsContext';
 
 export default function ActiveFilters() {
   const { filters, setFilters, columns, setColumns } = useContext(PlanetsContext);
-  const { filterByNumericValues } = filters;
+  const { filterByNumericValues } = filtiers;
 
   const handleDeleteFilter = (column) => {
     setColumns([...columns, column]);

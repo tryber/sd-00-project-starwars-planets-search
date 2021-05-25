@@ -10,7 +10,7 @@ function App() {
     <PlanetsProvider>
       <h1>Star Wars Planet Searcher</h1>
       <FilterForm />
-      <ActiveFilters />
+      {/* <ActiveFilters /> */}
       <Table />
     </PlanetsProvider>
   );

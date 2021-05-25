@@ -18,7 +18,7 @@ const sortArray = (array, order) => [
     if (columnA > columnB && order.sort === 'ASC') return ORDER_POSITIVE;
     if (columnA < columnB && order.sort === 'ASC') return ORDER_NEGATIVE;
     if (columnA > columnB && order.sort === 'DESC') return ORDER_NEGATIVE;
-    if (columnA < columnB && order.sort === 'DESC') return ORDER_POSITIVE;
+    if (columnA < columnB && order.sort === 'DESC') return ORDER_POSITIVE ;
     return 0;
   }),
 ];
